@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="Liceria.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="Nos_collections.html">Nos collections</a></li>
+                <li><a href="Notre histoire.html">Notre histoire</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fas fa-cart-shopping"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times-circle"></i></a>
+            </ul>
+        </div>
+        <div id ="mobile">
+            <a class="active" href="cart.html"><i class="fas fa-cart-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+    </section>
+    <section id="panier" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <th>Supprimer</th>
+                    <th>Produit</th>
+                    <th>Nom</th>
+                    <th>Prix</th>
+                    <th>Quantité</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <thead>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="product1.avif" alt=""></td>
+                    <td>Body Amour de Maman</td>
+                    <td>30,000د.ت</td>
+                    <td><input type="number" value="1"></td>
+                    <td>30,000د.ت</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="product1.avif" alt=""></td>
+                    <td>Body Amour de Maman</td>
+                    <td>30,000د.ت</td>
+                    <td><input type="number" value="1"></td>
+                    <td>30,000د.ت</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="product1.avif" alt=""></td>
+                    <td>Body Amour de Maman</td>
+                    <td>30,000د.ت</td>
+                    <td><input type="number" value="1"></td>
+                    <td>30,000د.ت</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="product1.avif" alt=""></td>
+                    <td>Body Amour de Maman</td>
+                    <td>30,000د.ت</td>
+                    <td><input type="number" value="1"></td>
+                    <td>30,000د.ت</td>
+                </tr>
+            </thead>
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="cupon">
+            <h3>Code promo</h3>
+            <div>
+                <input type="text" placeholder="Entrer le code promo">
+                <button class="animation-button">Appliquer</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Résumé de la commande</h3>
+            <table>
+                <tr>
+                    <td>Sous-total</td>
+                    <td>30,000د.ت</td>
+                </tr>
+                <tr>
+                    <td>Frais de livraison</td>
+                    <td>Gratuite</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>30,000د.ت</strong></td>
+                </tr>
+            </table>
+            <button class="animation-button">Payer</button>
+        </div>
+    </section>
+    <footer id="footer" class="section-p1">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Téléphone :</strong> +216 000000000</p>
+            <p><strong>Email :</strong> monbayastore@gmail.com</p>
+        </div>
+        <div class="col">
+            <div class="follow">
+                <h4>Suivez-nous</h4>
+                <img src="Liceria.png" class="logo" alt="">
+                <div class="icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="col":last-child>
+            <h4>Informations</h4>
+            <a href="#">Nos collections</a>
+            <a href="#">Notre histoire</a>
+            <a href="#">Contact</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
